@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 共通のスタイル */
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+header {
+background:#000;
+height: 70px;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+ 
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+
+   #eyecatch {
+    height: 600px;
+    background: url(../img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    }
+  
+  #eyecatch p {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+  }
+ 
+  .content {
+    position: absolute;
+    flex-direction:row;
+    background-color: #FFF;
+    /* bottom:-600px; */
+    top: 600px;
+    width: 600px;
+    height: 60px;
+    margin-left: 300px;
+}
+
+.news {
+  background-color: #000;
+  position: absolute;
+  color: #fff;
+  width: 100px;
+  height: 60px;
+  margin-left: 800px;
+  margin-top:-70px;
+  text-align: center;
+  /* flex-direction: column; */
+  line-height: 50px;
+}
+
+
+
+
+#section {
+  color:#FFF;
+  background-color: #000;
+  /* height:400px; */
+  width: 100%;
+  position: absolute;
+ }
+ 
+.wrap {
+  position: relative;
+  text-align: left;
+}
+ 
+ .section-title {
+   top:50px;
+   font-size:20px;
+   text-align: left;
+ }
+ .img {
+   position: relative;
+   width: 50%;
+   height: 40%;
+   margin-left:400px;
+   margin-top: 20px;
+ }
+
+ .p {
+   position: absolute;
+    font-size:10px;
+    top: 60px;
+  }
+
+ a li {
+background: #fff;
+color: #000;
+font-size:10px;
+width: 150px;
+height: 30px;
+border-radius: 1;
+list-style: none;
+text-align: center;
+
+line-height: 30px;
+margin-top:-150px;
+ }
+
+ 
+ 
