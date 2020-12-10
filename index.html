@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>estra.inc</title>
   <link rel="stylesheet" href="css/style.css"/>
+
 </head>
 <body>
   <header>
@@ -12,7 +13,7 @@
       <h1 class ="header-logo">estra inc.</h1>
       <nav class="header-nav">
         <ul>
-          <li><a href="#">home</a></li>
+      git    <li><a href="#">home</a></li>
           <li><a href="#">about</a></li>
           <li><a href="#">service</a></li>
           <li><a href="#">works</a></li>
@@ -22,30 +23,39 @@
       </nav>
     </div>
   </header>
+  <div id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <!-- ここからメイン -->
   <main>
     <div id ="eyecatch">
       <p>機械ではできない仕事を</p>
     </div>
-    <div class ="content">
-      <p>2019/01/01</p>
-      <P>ニュースタイトルがここに入ります。３月の決算報告書</P>
+    <div class ="content-wrap">
+      <p class="content">2019/01/01<br>ニュースタイトルがここに入ります。３月の決算報告書</P>
+        <p class ="news">news</p>
     </div>
-      <p class ="news">news</p>
-    <div>
+  </div>
+</div>
+
+  
       <div id="section">
-        
-      <div class ="wrap">
-      <h2 class="section-title">お客様のために進化する成長企業であり続ける</h2>
-      <div class="img">
-       <img src="mission-img.jpg">
-      </div>
-      <p class="p">顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している『勝ち残るため』の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。</p>
+        <div class ="wrap">
+          <h2 class="section-title">お客様のために進化する成長企業であり続ける</h2>
+            <div class="img">
+             <img src="mission-img.jpg">
+            </div>
+      <p class="p">顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。<br>企業が現在直面している『勝ち残るため』の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。</p>
        <a href="#"><li>ミッション詳細</li></a>      
       </div>
     </div>
+<!-- サービス -->
   <div id ="service">
     <h2>service</h2>
-  <div class=img-1>
+    <div class=img-1>
       <img src ="service2.jpg">
     </div>
     <div class ="web-content1">
@@ -123,9 +133,6 @@
     </nav>
   </div>
 </footer>
-      
-  
-      
   </main>
 </body>
 </html>
