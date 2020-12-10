@@ -1,0 +1,538 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 共通のスタイル */
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+
+header {
+background:#000;
+height: 70px;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  /* margin-top: -200px; */
+  color: #f2f2f2;
+  line-height: 70px;
+ 
+}
+
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+  /* bottom: 60px; */
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+
+   #eyecatch {
+    height: 600px;
+    background: url(../img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    }
+  
+  #eyecatch p {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+  }
+ 
+  .content-wrap {
+    display:inline-block;
+   width: 60%;
+   background-color: white;
+   margin-left: 63%;
+
+  }
+
+  .content {
+    display:inline-block;
+    background-color: #FFF;
+    /* top: 600px; */
+    width: 50%;
+    height: 60px;
+  }
+    
+
+.news {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  width: 100px;
+  height: 60px;
+ text-align:  center;
+ align-items: right;
+  line-height: 50px;
+  margin-top:-30px;
+}
+
+
+
+
+#section {
+  color:#FFF;
+  background-color: #000;
+  margin-top: -50px;
+  height:400px;
+  width: 100%;
+  position: relative;
+ }
+ 
+.wrap {
+  position: relative;
+  top:70px;
+  text-align: left;
+}
+ 
+ .section-title {
+   font-size:20px;
+   text-align: left;
+ }
+
+ .img{
+   position: relative;
+   width: 50%;
+   height: 40%;
+   margin-left:400px;
+   margin-top: 20px;
+ }
+
+ .p {
+   position: absolute;
+    font-size:10px;
+    top: 60px;
+  }
+
+ a li {
+background: #fff;
+color: #000;
+font-size:10px;
+width: 100px;
+/* height: 30px; */
+border-radius: 1;
+list-style: none;
+text-align: center;
+line-height: 30px;
+margin-top:-200px;
+ }
+
+ 
+#service {
+  width: 100%;
+  height: 1300px;
+  background-color: #b3b2b2a2;
+  
+}
+
+#service h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.web-content1 {
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  margin-left: 300px;
+  margin-top: 150px;
+  position: relative;
+}
+
+.web-wrap1 {
+  padding: 50px;
+  font-size: small;
+  line-height: 150%;
+}
+
+ .web-wrap1 a {
+bottom: 50px;
+padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 1px #000000;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+.img-1 {
+   position: absolute;
+  width: 700px;
+  height: 500px;
+  margin-left: 550px;
+  margin-top:30px
+   
+}
+
+.web-content2 {
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  margin-left: 600px;
+  margin-top: 400px;
+  position: relative;
+}
+
+.web-wrap2 {
+  padding: 50px;
+  font-size: small;
+  line-height: 150%;
+}
+
+ .web-wrap2 a {
+bottom: 50px;
+padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 1px #000000;
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+.img-2 {
+   position: absolute;
+  width: 700px;
+  height: 500px;
+  margin-top:300px
+}
+
+.wrapper {
+  height: 100%;
+  display: flex; 
+  justify-content: space-between;
+}
+
+  .img-3  {
+  width: 45%;
+  height: 10%;
+  margin-top:20px;
+
+ position: relative;
+}    
+
+.company {
+  color:white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+.img-4  {
+  width: 45%;
+  height: 10%;
+  position: relative;
+  margin-top:20px;
+}
+.recruit {
+  color:white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+/* エリア４ */
+.faq{
+  width: 80%;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.faq h2 {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 5%;
+}
+
+.faq p {
+  position: absolute;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* エリア５ */
+
+
+.img-5 {
+  position: relative;
+}
+
+.img-5 img {
+  height: 500px;
+  width: 100%;
+  margin-top:100px;
+}
+.contact {
+  position: absolute;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top:-100px;
+}
+.form {
+  margin-top:10px;
+  font-size: 14px;
+}
+
+.contact h1 {
+  margin-top:20px;
+  font-size:25px;
+  font-weight: lighter;
+}
+
+.form2 {
+  font-size: 10px;
+  white-space: nowrap;
+  margin-top:20px;
+}
+
+.contact a  {
+  display: inline-block;
+  margin-top:50px;
+  color: white;
+  font-size: 10px;
+  bottom: 40px;
+  padding: 0.5em 2em;
+   border: solid 0.5px #fff;
+    text-decoration: none;
+}
+
+/* フッター */
+footer {
+  background:#000;
+  height: 70px;
+  }
+  
+  .footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    /* margin-top: -200px; */
+    color: #f2f2f2;
+    line-height: 70px;
+   
+  }
+  
+  
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 16px;
+    /* bottom: 60px; */
+  }
+  
+  .footer-nav a {
+    color: #f2f2f2;
+  }
+
+  small {
+    display:block;
+    color: #f2f2f2;
+    font-size: 10px;
+    margin-top:20px;
+    margin-left: -200px;
+    background-color:
+     black;
+     
+
+  }
+@media screen and (max-width: 768px){
+
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 20px;
+    transition: 0.4s;
+  }
+  
+  #hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.8s;
+  }
+  
+  #hamburger span:nth-of-type(1) {
+    top: 10px; /* ハンバーガーメニューの1本目の棒 */
+  }
+  
+  #hamburger span:nth-of-type(2) {
+    top: 20px; /* ハンバーガーメニューの2本目の棒 */
+  }
+  
+  #hamburger span:nth-of-type(3) {
+    top: 30px; /* ハンバーガーメニューの3本目の棒 */
+  }
+  
+  .header-nav {
+    display: none; /* デスクトップのナビを消す */
+  }
+
+  #eyecatch p {
+  margin: 0 auto;
+  }
+
+  #content  {
+    display: flex;
+  }
+}
