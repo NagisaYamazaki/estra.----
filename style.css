@@ -161,7 +161,7 @@ height: 70px;
     height: 600px;
     background: url(../img/eyecatch.jpg) no-repeat;
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     /* position: absolute; */
     }
   
@@ -190,7 +190,7 @@ height: 70px;
     height: 50px;
     align-items: right;
     margin-top:  525px;
-    margin-left: 300px;
+    margin-left: auto;
     margin-right: -500px;
   }
   
@@ -207,6 +207,9 @@ height: 70px;
   margin-left:500px;
   margin-top:525px;
 }
+
+
+
 
 
 
@@ -260,8 +263,8 @@ margin-top:-200px;
 
  
 #service {
-  margin-top: 100px; 
-  width: 100%;
+  margin-top: 100px;
+  width: auto;
   height: 1300px;
   background-color: #b3b2b2a2;
   
@@ -272,13 +275,22 @@ margin-top:-200px;
   font-size: 30px;
 }
 
+  .img-1 {
+    width: 700px;
+    height: 500px;
+    margin-left:auto;
+    margin-top:30px
+     
+}
+
 .web-content1 {
   width: 400px;
   height: 250px;
   background-color: #fff;
-  margin-left: 300px;
-  margin-top: 150px;
-  position: relative;
+  margin-left: 100px;
+  margin-top: -400px;
+    position:relative;
+  
 }
 
 .web-wrap1 {
@@ -296,14 +308,7 @@ padding: 0.5em 1em;
     margin-left: 150px;
 }
 
-.img-1 {
-   position: absolute;
-  width: 700px;
-  height: 500px;
-  margin-left: 550px;
-  margin-top:30px
-   
-}
+
 
 .web-content2 {
   width: 400px;
@@ -387,7 +392,7 @@ padding: 0.5em 1em;
 .faq h2 {
   position: absolute;
   color: white;
-  top: 25%;
+  top: 40%;
   left: 5%;
 }
 
@@ -489,9 +494,14 @@ footer {
     margin-left: -200px;
     background-color:
      black;
-     
+     }
 
-  }
+
+
+     /* ここからレスポンシブ */
+
+
+     
 @media screen and (max-width: 768px){
 
   #hamburger {
@@ -531,11 +541,149 @@ footer {
     display: none; /* デスクトップのナビを消す */
   }
 
-  #eyecatch p {
-  margin: 0 auto;
-  }
 
-  #content  {
-    display: flex;
+
+  .contents-wrap{
+    width:auto;
+    height: 40px;
+  }
+  
+
+/* セクション */
+  .wrap{
+    display:block;
+    width: 70%;
+  }
+  
+   .img {
+     flex-wrap: wrap;
+     margin-left: auto;
+     margin-top:130px;
+   }
+
+a li {
+  margin-top:-100px;
+}
+
+#service {
+  margin-top:50px;
+  height: auto;
+}
+
+.img-1 {
+  width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.web-content1 {
+  display:block;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: auto;
+}
+
+
+ .web-wrap1 p {
+   margin-top:10px;
+   }
+
+   .web-wrap1 a {
+     color: #000;
+    margin-left: 110px;
+   }
+
+   .img-2{
+     position: relative;
+     height: auto;
+    width: 80%;
+    margin: auto;
+    /* flex-wrap:wrap;
+    height: 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-left:auto; */
+  }
+  
+  .web-content2{
+    display:block;
+    height: -10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+  }
+  
+  
+   .web-wrap2 p {
+     margin-top:10px;
+     }
+  
+     .web-wrap2 a {
+       color: #000;
+      margin-left: 110px;
+     }
+  
+  
+     
+    
+    
+      
+    .wrapper{
+      height: 100%;
+  display: block; 
+    }
+
+    
+    .img-3 {
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+    }
+    .img-3 h2{
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .img-4 {
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+    }
+
+    .img-4 h2{
+      font-size: 30px;
+      margin-bottom: 10px;
+}
+
+.faq {
+  margin-top: 30px;
+  width: auto;
+}
+.contact{
+  flex-wrap: wrap;
+  width: 80%;
+}
+.contact h2 {
+  font-size:30px;
+}
+.form {
+  font-size: 15px;
+}
+.form2 {
+  display: block;
+  width: 80%;
+}
+
+.footer-logo {
+  align-items: center;
+  margin: 0 auto;
+}
+
+  .footer-nav li a{
+    display: none;
+  }
+  .footer small {
+    margin-top: -20px;
+    margin: 0 auto;
   }
 }
